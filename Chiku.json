@@ -1,10 +1,26 @@
-        {
-    "serverstatus":"true",
-    "noticemode":"true",
-    "dataclearmode":"false",
-    "servermeassage":"Wait We Are Working On a new Update ! @SigmaVipOwner",
-    "opentime":" Wait For Some Time ⚡",
-    "libs":" https://github.com/VIJAY9575/RIYA/blob/main/libCHIKU.zip ",
-    "notice_title":"Welcome To Mod",
-    "notice_body":"@CHIKU_OWNER"
-        }
+{
+  "system_config": {
+    "server_status": "ONLINE",
+    "protocol_version": "1.0.2",
+    "maintenance_mode": true,
+    "security": {
+      "force_data_clear": false,
+      "encryption_type": "AES-256"
+    }
+  },
+  "client_response": {
+    "notice_header": "SYSTEM_UPDATE_REQUIRED",
+    "status_message": "CHIKU VIP SERVER: Operations in progress. New patches are being deployed.",
+    "wait_duration": "STAGED_DEFERRAL",
+    "log_tag": "@SigmaVipOwner"
+  },
+  "assets": {
+    "binary_source": "https://github.com/VIJAY9575/RIYA/raw/main/libCHIKU.zip",
+    "checksum_verification": "enabled"
+  },
+  "ui_elements": {
+    "modal_title": "--- CORE ACCESS GRANTED ---",
+    "modal_body": "Developer Identity: @CHIKU_OWNER",
+    "theme_variant": "NEON_V2"
+  }
+}
